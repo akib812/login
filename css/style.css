@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    background-image: url(../image/Simple-Purple-Checked-Background-Image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-content {
+
+    width: 40%;
+
+    margin: auto;
+
+    text-align: center;
+
+    padding: 99px;
+
+}
+
+.banner-top {
+
+    width: 60%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: auto;
+}
+
+.banner-left {
+
+    width: 50%;
+
+    /* text-align: center; */
+}
+
+.banner-left h1 {
+
+    color: #fff;
+
+    text-transform: capitalize;
+
+    font-size: 35px;
+}
+
+.banner-left span {
+
+    display: block;
+
+    height: 4px;
+
+    width: 65%;
+
+    margin: auto;
+
+    background: green;
+
+    margin-top: 10px;
+}
+
+.banner-right {
+
+    width: 50%;
+
+    /* font-size: 18px; */
+
+    text-transform: capitalize;
+}
+
+.banner-right h1 {
+
+    color: #fff;
+
+    opacity: 0.5;
+
+    font-size: 35px;
+}
+
+form {
+    margin-top: 50px;
+    text-align: left !important;
+}
+
+form input {
+    width: 100%;
+    padding: 7px 0;
+    /* margin-top: 0; */
+    margin-bottom: 18px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+label h2 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.form-check {
+    width: 100%;
+    display: flex;
+}
+
+.form-check input {
+    width: 20px !important;
+    margin-right: 10px;
+    padding: -3px;
+}
+
+.form-check p {
+    color: #fff;
+    font-size: 12px;
+    /* text-align: center; */
+}
+
+.login {
+
+    width: 38%;
+
+    /* text-align: center !important; */
+
+    margin: auto;
+}
+
+.login input {
+
+    background: transparent;
+
+    border: none;
+
+    border: 1px solid #fff;
+
+    padding: 14px 0;
+
+    color: #fff;
+
+    font-size: 20px;
+
+    border-radius: 25px;
+
+    background: green;
+
+    border-color: green;
+
+    font-weight: 500;
+}
+
+.for {
+
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+
+    margin-top: -5px;
+}
+
+.for p {
+
+    color: #fff;
+
+    font-size: 14px;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    background-color: #400B75;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+form input::placeholder {
+    color: rgb(238, 232, 232);
+    font-size: 15px;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form input:focus::placeholder {
+    opacity: .7;
+}
